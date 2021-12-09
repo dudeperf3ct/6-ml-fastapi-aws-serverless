@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 curl -X 'POST' \
-  'https://wine-ratings-b4yojuwgbq-uc.a.run.app/predict' \
+  'http://wine-ratings.us-east-1.elasticbeanstalk.com/predict' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
